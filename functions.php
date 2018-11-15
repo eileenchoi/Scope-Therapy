@@ -190,7 +190,7 @@ function business_scripts_styles() {
 	wp_dequeue_style( 'simple-social-icons-font' );
 
 	// Enqueue Google fonts.
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Montserrat:600|Hind:400', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Josefin+Sans|Oswald|PT+Sans|Playfair+Display|Raleway|Source+Sans+Pro', array(), CHILD_THEME_VERSION );
 
 	// Get Icon Widget plugin settings.
 	$icon_settings = get_option( 'icon_widget_settings' );
@@ -228,7 +228,12 @@ function business_scripts_styles() {
 		),
 	) );
 }
-
+// Customize footer credits
+add_filter('genesis_footer_creds_text', 'sp_footer_creds_filter');
+function sp_footer_creds_filter( $creds ) {
+	$creds = '[footer_copyright] Scope Therapy &middot; All Rights Reserved &middot; Another bright idea built by <a href="http://mydomain.com">Upply.io</a> 💡';
+	return $creds;
+}
 // Load theme helper functions.
 include_once( get_stylesheet_directory() . '/includes/helpers.php' );
 
@@ -249,3 +254,5 @@ include_once( get_stylesheet_directory() . '/includes/defaults.php' );
 
 // Load theme's recommended plugins.
 include_once( get_stylesheet_directory() . '/includes/plugins.php' );
+
+
