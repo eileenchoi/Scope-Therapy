@@ -116,6 +116,7 @@ html {
  */
 body {
 	margin: 0;
+	letter-spacing: 0.35px;
 }
 
 /**
@@ -692,10 +693,11 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 	line-height: 1.2;
 	margin: 0 0 0.382em;
+	letter-spacing: 0.65px;
 }
 
 h1 {
@@ -778,10 +780,10 @@ input[type='submit'] {
 	border-radius: 4px;
 	color: #ffffff;
 	cursor: pointer;
-	font-family:'Playfair Display', serif;
+	font-family:'Raleway', sans-serif;
 	font-size: 15px;
 	font-size: 1.5rem;
-	font-weight: 600;
+	/* font-weight: 600; */
 	padding: 1.2em 2.2em;
 	text-decoration: none;
 	display: inline-block;
@@ -790,7 +792,8 @@ input[type='submit'] {
 	line-height: 1;
 	box-shadow: inset 0 0 0 9rem rgba(255, 255, 255, 0), 0 1rem 1rem -1rem rgba(35, 44, 57, 0.1);
 	-webkit-transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
-	        transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
+			transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
+	letter-spacing: 0.35px;
 }
 
 .button:hover,
@@ -1300,8 +1303,8 @@ img.alignright,
 .site-title {
 	font-size: 17px;
 	font-size: 1.7rem;
-	font-family: 'Playfair Display', serif;
-	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	/* font-weight: 600; */
 	line-height: 1;
 	margin-bottom: 0;
 	white-space: nowrap;
@@ -1443,7 +1446,7 @@ img.alignright,
 --------------------------------------------- */
 .menu {
 	width: 100%;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	font-size: 1.8rem;
@@ -1604,7 +1607,7 @@ img.alignright,
 }
 .nav-primary ul li a{
 	letter-spacing: 1px;
-	font-weight: 600;
+	/* font-weight: 600; */
 	padding: 5px;
 }
 
@@ -1919,7 +1922,7 @@ p.entry-meta {
 	display: none;
 	font-size: 12px;
 	font-size: 1.2rem;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 }
 
@@ -1982,7 +1985,7 @@ p.entry-meta {
 	padding: 40px 0;
 	padding: 4rem 0;
 	background-color: #f6f7f8;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	font-size: 1.4rem;
 	font-weight: 500;
@@ -2176,10 +2179,10 @@ p.entry-meta {
 
 .widgettitle,
 .widget-title {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
 	font-size: 2.4rem;
-	font-weight: 700;
+	/* font-weight: 700; */
 }
 
 .sidebar .widgettitle,
@@ -2657,7 +2660,8 @@ div.lSSlideOuter .lSPager.lSpg > li:hover a {
 }
 
 div.lSSlideOuter ul.testimonials-list {
-	color: #647585;
+	/* color: #647585; */
+	color: white;
 	font-size: 14px;
 	font-size: 1.4rem;
 }
@@ -2872,7 +2876,7 @@ p.demo_store {
 }
 .front-page-1 button a{
 	color: #ffffff;
-	font-weight: 600;
+	/* font-weight: 600; */
 	letter-spacing: 1px;
 }
 
@@ -2896,7 +2900,8 @@ p.demo_store {
 }
 
 .front-page-2 p {
-	color: #5F8929;
+	/* color: #5F8929; */
+	color: #647585;
 	display: block;
 }
 
@@ -3010,13 +3015,15 @@ p.demo_store {
 	font-size: 18px;
 	font-size: 1.8rem;
 }
-
+.front-page-3 .entry-title a{
+	color: #E07E38;
+}
 .front-page-3 .entry-content {
 	padding: 0 30px 30px;
 	padding: 0 3rem 3rem;
-	font-size: 18px;
-	font-size: 1.8rem;
-	color: #647585;
+	font-size: 16px;
+	font-size: 1.6rem;
+	color: #5F8929;
 }
 
 .front-page-3 img {
@@ -3029,7 +3036,7 @@ p.demo_store {
 	padding: 0.618em 1.618em;
 	font-size: 14px;
 	font-size: 1.4rem;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 	margin-top: 1em;
 	width: auto;
@@ -3306,7 +3313,7 @@ p.demo_store {
 }
 
 .front-page-5 .title {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 	position: absolute;
 	text-align: center;
@@ -3328,7 +3335,7 @@ p.demo_store {
 
 .front-page-5 .widget-title{
 	color: #E07E38;
-	font-weight: 600;
+	/* font-weight: 600; */
 	
 }
 
@@ -3399,6 +3406,11 @@ p.demo_store {
 	margin: 0 1rem 1rem 0;
 	line-height: 1;
 	color: #647585;
+	
+}
+
+.front-page-6 blockquote{
+	color:#647585;
 }
 
 .front-page-6 img + h5 {
