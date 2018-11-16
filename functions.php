@@ -16,6 +16,9 @@ if ( ! defined( 'WPINC' ) ) {
 
 }
 
+// remove post info
+remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
+
 // Child theme (do not remove).
 include_once( get_template_directory() . '/lib/init.php' );
 
