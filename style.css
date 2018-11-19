@@ -1232,7 +1232,7 @@ img.alignright,
 /* ## Site Header
 --------------------------------------------- */
 .site-header {
-	margin-top: 10px;
+	padding-top: 10px;
 	position: absolute;
 	width: 100%;
 	z-index: 100;
@@ -1245,7 +1245,8 @@ img.alignright,
 }
 
 .has-fixed-header .site-header.shrink {
-	background-color: #232c39;
+	/* background:linear-gradient(#C44B7C, #985F99); */
+	background-color: #985F99;
 	box-shadow: 0 0 2rem rgba(35, 44, 57, 0.2);
 }
 
@@ -1449,7 +1450,7 @@ img.alignright,
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 18px;
-	font-size: 1.8rem;
+	font-size: 1.45rem;
 	line-height: 1;
 	text-align: center;
 	display: -webkit-box;
@@ -1498,7 +1499,7 @@ img.alignright,
 }
 
 .menu-item.button > a > span {
-	background-color: #fb2056;
+	/* background-color: #fb2056; */
 	padding: 1em 2em;
 	border-radius: 4px;
 	color: #ffffff;
@@ -4235,7 +4236,7 @@ p.demo_store {
 	}
 	.menu {
 		text-align: left;
-		font-size: 1.6rem;
+		font-size: 1.45rem;
 	}
 	.menu-item {
 		display: inline-block;
@@ -4419,9 +4420,9 @@ p.demo_store {
 }
 
 @media (min-width: 1152px) {
-	.wp-custom-logo .title-area {
+	/* .wp-custom-logo .title-area {
 		padding: 0;
-	}
+	} */
 	.menu-item a {
 		padding: 2em 1.25em;
 	}
